@@ -28,6 +28,9 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+# Add protected gems
+gem 'protected_attributes'
+
 group :production do
 gem 'pg', '0.12.2'
 end
